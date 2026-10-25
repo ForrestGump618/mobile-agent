@@ -2,6 +2,7 @@
 
 **运行在 Android 手机上的原生 AI 智能体：能聊天，也能真正执行任务。**
 
+[![Android CI](https://github.com/ForrestGump618/mobile-agent/actions/workflows/android.yml/badge.svg)](https://github.com/ForrestGump618/mobile-agent/actions/workflows/android.yml)
 [![Android](https://img.shields.io/badge/Android-12%2B-3DDC84?logo=android&logoColor=white)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.1-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4)](https://developer.android.com/jetpack/compose)
