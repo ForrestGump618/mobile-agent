@@ -3,6 +3,7 @@
 **运行在 Android 手机上的原生 AI 智能体：能聊天，也能真正执行任务。**
 
 [![Android CI](https://github.com/ForrestGump618/mobile-agent/actions/workflows/android.yml/badge.svg)](https://github.com/ForrestGump618/mobile-agent/actions/workflows/android.yml)
+[![Release](https://img.shields.io/github/v/release/ForrestGump618/mobile-agent?include_prereleases&label=release)](https://github.com/ForrestGump618/mobile-agent/releases)
 [![Android](https://img.shields.io/badge/Android-12%2B-3DDC84?logo=android&logoColor=white)](https://developer.android.com)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.1-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4)](https://developer.android.com/jetpack/compose)
@@ -144,6 +145,21 @@ Agent 模式才进入规划、工具注册、Schema 校验、策略审批、执�
 
 ---
 
+## 下载
+
+| 渠道 | 说明 |
+| --- | --- |
+| [v0.1.0 GitHub Release](https://github.com/ForrestGump618/mobile-agent/releases/tag/v0.1.0) | Debug APK（实验版，debug 签名，仅供测试） |
+| 源码构建 | 见下方快速开始；CI 同时产出 `mobile-agent-debug-apk` artifact |
+
+Release 资产附带 SHA-256 校验文件。安装：
+
+```bash
+adb install -r mobile-agent-v0.1.0-debug.apk
+```
+
+> Debug 签名仅用于安装测试；正式分发请自行配置 release 签名。v0.1.0 尚未完成真机与真实 API Key 验收，
+> 详见下文“验证状态”。
 ## 快速开始
 
 ### 构建
