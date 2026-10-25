@@ -6,6 +6,9 @@
 
 首个可构建的实验版本。**未完成真机与真实 API Key 验收**，详见 `docs/TEST_REPORT.md`。
 
+> GitHub Release：[v0.1.0（Pre-release）](https://github.com/ForrestGump618/mobile-agent/releases/tag/v0.1.0) —
+> 附带 Debug APK 与 SHA-256 校验文件。
+
 ### Added
 
 - 原生 Android 工程：`:app` / `:core` / `:execution` / `:integrations`。

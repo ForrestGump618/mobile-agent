@@ -25,6 +25,7 @@
 | [已知限制](KNOWN_LIMITATIONS.md) | 运行时、国际化、功能边界、环境限制 |
 | [进度记录](PROGRESS.md) | 两轮开发的实现与验证记录 |
 | [变更日志](../CHANGELOG.md) | 版本变更 |
+| [v0.1.0 发布说明](release-notes/v0.1.0.md) | Release 正文、安装与校验信息 |
 
 ## 专题
 
