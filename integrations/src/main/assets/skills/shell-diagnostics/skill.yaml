@@ -1,0 +1,12 @@
+id: shell-diagnostics
+name: Read-only Shell Diagnostics
+version: 1.0.0
+description: Run read-only shell checks (uptime, processes, network state) and report real output.
+runtime: prompt
+author: Mobile Agent
+required_tools:
+  - shell.exec
+permissions:
+  files: false
+  shell: true
+  network: false

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobile Agent</string>
+
+    <!-- Navigation -->
+    <string name="nav_chat">Chat</string>
+    <string name="nav_tasks">Tasks</string>
+    <string name="nav_terminal">Terminal</string>
+    <string name="nav_workbench">Workbench</string>
+    <string name="nav_me">Me</string>
+    <string name="nav_models">Models</string>
+    <string name="nav_mcp">MCP servers</string>
+    <string name="nav_skills">Skills</string>
+    <string name="nav_diagnostics">Diagnostics</string>
+    <string name="nav_logs">Audit log</string>
+    <string name="nav_memory">Memory</string>
+    <string name="nav_workspace">Workspace</string>
+    <string name="nav_device">Device control</string>
+    <string name="nav_shizuku">Shizuku</string>
+    <string name="nav_accessibility">Accessibility</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Common -->
+    <string name="action_save">Save</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_test">Test</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_close">Close</string>
+    <string name="action_copy">Copy</string>
+    <string name="action_add">Add</string>
+    <string name="action_back">Back</string>
+    <string name="action_next">Next</string>
+    <string name="action_skip">Skip for now</string>
+    <string name="status_ok">OK</string>
+    <string name="status_failed">Failed</string>
+    <string name="status_skipped">Skipped</string>
+
+    <!-- Onboarding / provider setup -->
+    <string name="setup_title">Connect a model</string>
+    <string name="setup_welcome_title">Welcome to Mobile Agent</string>
+    <string name="setup_welcome_body">Choose a model provider, paste your API key and start chatting. Shizuku and accessibility are optional and can be enabled later.</string>
+    <string name="setup_choose_provider">Provider</string>
+    <string name="setup_api_key">API Key</string>
+    <string name="setup_api_key_hint">Paste the API key from the provider console</string>
+    <string name="setup_api_key_stored">A key is already stored. Leave blank to keep it.</string>
+    <string name="setup_model">Model</string>
+    <string name="setup_model_hint">Model ID</string>
+    <string name="setup_test">Test connection</string>
+    <string name="setup_testing">Testing…</string>
+    <string name="setup_save">Save and start chatting</string>
+    <string name="setup_advanced">Advanced settings</string>
+    <string name="setup_base_url">Base URL</string>
+    <string name="setup_api_path">API path</string>
+    <string name="setup_temperature">Temperature</string>
+    <string name="setup_max_tokens">Max output tokens</string>
+    <string name="setup_context_window">Context window</string>
+    <string name="setup_timeout">Timeout (seconds)</string>
+    <string name="setup_streaming">Streaming</string>
+    <string name="setup_tools">Tool calling (Agent mode)</string>
+    <string name="setup_vision">Vision capable</string>
+    <string name="setup_docs">Official documentation</string>
+    <string name="setup_note">The key is encrypted with the Android Keystore and never written to the database or logs.</string>
+    <string name="setup_custom_model">Custom model ID</string>
+    <string name="setup_test_success">Connection verified: the model returned text.</string>
+    <string name="setup_test_failed">Connection failed. See the steps below.</string>
+    <string name="setup_saved">Model saved.</string>
+    <string name="setup_key_required">Enter an API key.</string>
+    <string name="setup_model_required">Enter a model ID.</string>
+    <string name="setup_base_required">Enter a valid Base URL.</string>
+    <string name="setup_preset_note">Preset values follow the provider documentation; model IDs can be edited.</string>
+
+    <!-- Connection checks -->
+    <string name="check_config">Configuration</string>
+    <string name="check_network">Network reachable</string>
+    <string name="check_auth">API key accepted</string>
+    <string name="check_model">Model callable</string>
+    <string name="check_text">Text answer received</string>
+    <string name="check_stream">Streaming works</string>
+
+    <!-- Chat -->
+    <string name="chat_new">New chat</string>
+    <string name="chat_history">History</string>
+    <string name="chat_empty_title">How can I help?</string>
+    <string name="chat_empty_body">Ask anything, or switch to Agent mode to operate the phone, run commands or fetch data.</string>
+    <string name="chat_input_hint">Message…</string>
+    <string name="chat_stop">Stop generating</string>
+    <string name="chat_regenerate">Regenerate</string>
+    <string name="chat_copied">Copied</string>
+    <string name="chat_mode_chat">Chat</string>
+    <string name="chat_mode_agent">Agent</string>
+    <string name="chat_agent_hint">Agent mode can use shell, network, files and UI automation. Each risky action asks for confirmation.</string>
+    <string name="chat_agent_created">Agent task created. Open Tasks to follow the execution trace.</string>
+    <string name="chat_open_tasks">Open task</string>
+    <string name="chat_error_title">The reply could not be generated</string>
+    <string name="chat_open_models">Open model settings</string>
+    <string name="chat_retry">Try again</string>
+    <string name="chat_untitled">New conversation</string>
+    <string name="chat_delete">Delete conversation</string>
+    <string name="chat_streaming">Generating…</string>
+    <string name="chat_no_model">No model configured</string>
+    <string name="chat_switch_model">Change model</string>
+    <string name="chat_suggestion_1">帮我写一份产品周报</string>
+    <string name="chat_suggestion_2">解释一下什么是 RAG</string>
+    <string name="chat_suggestion_3">用 Agent 模式查看设备存储空间</string>
+
+    <!-- Models -->
+    <string name="models_title">Models</string>
+    <string name="models_add">Add model</string>
+    <string name="models_default">Default</string>
+    <string name="models_set_default">Set as default</string>
+    <string name="models_untested">Not tested</string>
+    <string name="models_tested_at">Last tested</string>
+    <string name="models_caps">Verified capabilities</string>
+    <string name="models_no_caps">No verified capability yet — run a connection test.</string>
+    <string name="models_none">No model configured. Add one to start chatting.</string>
+    <string name="models_testing">Testing…</string>
+    <string name="models_delete_confirm">Delete this model? The stored key will also be removed.</string>
+    <string name="models_edit_title">Edit model</string>
+
+    <!-- Errors -->
+    <string name="err_auth">API key is invalid or expired</string>
+    <string name="err_forbidden">This key has no access to the model</string>
+    <string name="err_not_found">Endpoint or model ID not found</string>
+    <string name="err_rate">Rate limited or out of quota</string>
+    <string name="err_bad_request">Request rejected by the provider</string>
+    <string name="err_server">Model service unavailable</string>
+    <string name="err_network">Network, proxy or DNS failure</string>
+    <string name="err_timeout">Request timed out</string>
+    <string name="err_stream">Streaming response could not be parsed</string>
+    <string name="err_empty">The model returned an empty answer</string>
+    <string name="err_config">Model configuration is incomplete</string>
+    <string name="err_unknown">Unknown model error</string>
+
+    <!-- Settings: language -->
+    <string name="settings_language">Language</string>
+    <string name="language_system">Follow system</string>
+    <string name="language_zh">简体中文</string>
+    <string name="language_en">English</string>
+</resources>

@@ -1,0 +1,13 @@
+id: device-diagnostics
+name: Device Diagnostics
+version: 1.0.0
+description: Collect real device facts (OS, storage, battery, installed apps) and produce a short health report.
+runtime: prompt
+author: Mobile Agent
+required_tools:
+  - device.info
+  - app.list
+permissions:
+  files: false
+  shell: false
+  network: false

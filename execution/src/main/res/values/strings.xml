@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="accessibility_service_label">Mobile Agent automation</string>
+    <string name="accessibility_service_description">Lets Mobile Agent read the visible screen and perform taps, text input and scrolling when you ask it to automate an app. The service never runs on its own.</string>
+</resources>

@@ -1,0 +1,12 @@
+id: markdown-report
+name: Markdown Report
+version: 1.0.0
+description: Turn collected results into a clean Markdown document in the workspace exports folder.
+runtime: prompt
+author: Mobile Agent
+required_tools:
+  - file.write
+permissions:
+  files: true
+  shell: false
+  network: false

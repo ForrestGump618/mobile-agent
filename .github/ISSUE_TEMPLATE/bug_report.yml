@@ -1,0 +1,70 @@
+name: Bug report
+description: 报告可复现的缺陷（请勿粘贴真实 API Key 或隐私数据）
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈。提交前请先查看 `docs/KNOWN_LIMITATIONS.md`，并确认不是“未在真机验证”的已知项。
+        **不要**在 Issue 中粘贴 API Key、Token、设备序列号或他人隐私数据。
+  - type: dropdown
+    id: area
+    attributes:
+      label: 影响区域
+      options:
+        - 首次配置 / 模型连接
+        - 普通聊天
+        - Agent 任务 / 工具调用
+        - Shizuku
+        - 无障碍 / UI 自动化
+        - MCP / Skills
+        - 后台 / 定时任务
+        - 界面 / 国际化
+        - 构建 / 测试
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开...
+        2. 点击...
+        3. 看到...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为与错误信息
+      description: 请贴出脱敏后的提示或日志（不要包含密钥）
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: 版本 / 提交
+      placeholder: v0.1.0 或 commit sha
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 设备与系统
+      placeholder: Pixel 8, Android 15；或“未在真机复现”
+  - type: dropdown
+    id: verification
+    attributes:
+      label: 是否已在真机复现
+      options:
+        - 是
+        - 否（仅代码/测试层）
+    validations:
+      required: true

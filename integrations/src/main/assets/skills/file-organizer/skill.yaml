@@ -1,0 +1,14 @@
+id: file-organizer
+name: Workspace File Organizer
+version: 1.0.0
+description: Organize files inside the agent workspace by extension into folders and write an index.
+runtime: prompt
+author: Mobile Agent
+required_tools:
+  - file.list
+  - file.move
+  - file.write
+permissions:
+  files: true
+  shell: false
+  network: false

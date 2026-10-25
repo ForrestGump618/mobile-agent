@@ -1,0 +1,10 @@
+﻿id: scheduled-check
+name: Scheduled Check
+version: 1.0.0
+description: Guidance for setting up a repeating background check (created from the Tasks screen).
+runtime: prompt
+author: Mobile Agent
+permissions:
+  files: false
+  shell: false
+  network: true
